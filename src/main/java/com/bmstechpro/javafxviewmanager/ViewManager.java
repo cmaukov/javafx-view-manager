@@ -25,8 +25,10 @@ public class ViewManager {
         try {
             Parent root;
             if (cache.containsKey(view)) {
+                System.out.printf("Loading %s from cache%n", view.getFileName());
                 root = cache.get(view);
             } else {
+                System.out.printf("Loading %s from FXML%n", view.getFileName());
                 root = FXMLLoader.load(ViewManager.class.getResource(view.getFileName()));
                 cache.put(view, root);
             }
