@@ -25,7 +25,7 @@ tasks.withType(JavaCompile) {
 
 application {
     mainModule = 'com.bmstechpro.javafxviewmanager'
-    mainClass = 'com.bmstechpro.javafxviewmanager.HelloApplication'
+    mainClass = 'com.bmstechpro.javafxviewmanager.MultipleViewsApp'
 }
 
 javafx {

@@ -3,6 +3,19 @@ package com.bmstechpro.javafxviewmanager;
  * @created 10/02/2022
  * @author Konstantin Staykov
  */
-   
-    public enum View {
+
+public enum View {
+    LOGIN("login.fxml"),
+    MAIN("main.fxml"),
+    ABOUT("about.fxml");
+
+    View(String fileName) {
+        this.fileName = fileName;
+    }
+
+    private final String fileName;
+
+    public String getFileName() {
+        return fileName;
+    }
 }

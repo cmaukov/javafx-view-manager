@@ -3,6 +3,13 @@ package com.bmstechpro.javafxviewmanager;
  * @created 10/02/2022
  * @author Konstantin Staykov
  */
-   
-    public class LoginController {
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+
+public class LoginController {
+    @FXML
+    protected void login(ActionEvent actionEvent) {
+        ViewManager.switchTo(View.MAIN);
+    }
 }
