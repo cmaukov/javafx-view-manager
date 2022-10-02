@@ -1,8 +1,4 @@
 package com.bmstechpro.javafxviewmanager;
-/* javafx-view-manager
- * @created 10/02/2022
- * @author Konstantin Staykov
- */
 
 import javafx.application.Application;
 import javafx.scene.Scene;
