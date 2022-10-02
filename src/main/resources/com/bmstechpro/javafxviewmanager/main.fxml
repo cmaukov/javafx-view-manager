@@ -9,5 +9,6 @@
       prefHeight="400.0" prefWidth="600.0">
     <TextArea text="Some text"/>
     <Button text="About" onAction="#about"/>
+    <Button text="HOP" onAction="#onHop"/>
 
 </VBox>

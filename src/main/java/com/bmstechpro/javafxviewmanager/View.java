@@ -3,7 +3,8 @@ package com.bmstechpro.javafxviewmanager;
 public enum View {
     LOGIN("login.fxml"),
     MAIN("main.fxml"),
-    ABOUT("about.fxml");
+    ABOUT("about.fxml"),
+    HOP("hop.fxml");
 
     View(String fileName) {
         this.fileName = fileName;
