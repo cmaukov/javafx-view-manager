@@ -3,12 +3,10 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.VBox?>
-<VBox xmlns="http://javafx.com/javafx"
-      xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.bmstechpro.javafxviewmanager.MainController"
-      prefHeight="400.0" prefWidth="600.0">
-    <TextArea text="Some text"/>
-    <Button text="About" onAction="#about"/>
-    <Button text="HOP" onAction="#onHop"/>
+
+<VBox prefHeight="400.0" prefWidth="600.0" stylesheets="@main.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bmstechpro.javafxviewmanager.MainController">
+    <TextArea text="Some text" />
+    <Button onAction="#about" text="About" />
+    <Button onAction="#onHop" text="HOP" />
 
 </VBox>

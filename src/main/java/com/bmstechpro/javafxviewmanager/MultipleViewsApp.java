@@ -13,6 +13,7 @@ public class MultipleViewsApp extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         var scene = new Scene(new Pane());
+//        scene.getRoot().setStyle("-fx-font-family: 'verdana'");
         ViewManager.setScene(scene);
         ViewManager.switchTo(View.LOGIN);
         stage.setScene(scene);
